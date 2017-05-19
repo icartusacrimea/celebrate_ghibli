@@ -1,0 +1,40 @@
+*1.* first page users will see will be a miyazaki bio...his achievements, influence,
+ song, and info on studio ghibli as well (keep in mind users might be first timers) 
+ -slow theme intro(nothing too much) on homepage load, give users option to stop songs
+    -initial background wallpaper custom animation? 
+        example codepen: 
+        http://codepen.io/MAW/pen/KdmwMb
+        - diff/smaller leaves? and less leaves? maybe not leaves at all, something else
+        - falling animation against what background?
+
+*2.* give users the ability to sift through all the movies (20 in all from my count) 
+ -change the background wallpaper according to the movie chosen
+ -present information about it, including
+ -soundtrack (playing with the idea of either YouTube API or Soundcloud API), play 
+ the first song off a playlist, it will be the theme song etc for that movie
+    -if soundcloud api, make own playlist for each movie
+ -plot summary (will be hidden initially and user can uncollapse if he/she wants)
+ -panel of pictures/snapshots of the films (clone of Netflix UI)
+    -initially try without library
+    (but if we need library, React Motion for animation?)
+
+*3.* user authentication
+        -pick favorite movies
+        -post on forum/message board (post for each movie like soundcloud for songs?)
+        -pick which soundtrack/songs they like
+        -share all their picks
+        -profile pic?
+        -recommendations for other movies like studio ghibli/miyazaki 
+            (don't have to be animated)
+
+*4.* "Choose your 3 most favorite films!" poll, possibly including which regions 
+like which movie etc
+        -allow users to create more polls? (such as favorite char, favorite scene, etc)
+        -Data visualization(haven't decided if this is necessary): D3(too complicated?) or Chart.js
+            -most beloved studio ghibli films
+            -most beloved songs/soundtracks
+            -any polls created by users
+
+*5.* chatroom or forum-like setting?
+    -maybe forum-like posting is better than real-time chat? discuss with icartusacrimea
+        -decide view layout of posts, how will users see/interact with posts?
