@@ -38,3 +38,13 @@ like which movie etc
 *5.* chatroom or forum-like setting?
     -maybe forum-like posting is better than real-time chat? discuss with icartusacrimea
         -decide view layout of posts, how will users see/interact with posts?
+
+-stil need to make breakdown of folders/files by feature in components folder
+
+Tech Stack:
+
+React
+Node/Express/MongoDB/Mongoose
+Passport
+(maybe) D3 or Chart.js
+Socket.io (for user posting)
